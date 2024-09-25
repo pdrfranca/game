@@ -1,0 +1,93 @@
+/* Estilos Globais */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Flexbox Container para os Jogos */
+.games-container {
+    display: flex;
+    justify-content: space-around; /* Distribui os jogos uniformemente */
+    align-items: flex-start;
+    gap: 20px; /* Espaçamento entre os jogos */
+}
+
+.game {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+    width: 30%; /* Largura de cada jogo */
+}
+
+.game img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.game h3 {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+.game button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.game button:hover {
+    background-color: #555;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
